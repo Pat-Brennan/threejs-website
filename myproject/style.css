@@ -3,3 +3,10 @@ canvas {
   top: 0;
   left: 0;
 }
+
+main {
+  position: absolute;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
